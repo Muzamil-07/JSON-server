@@ -1,0 +1,94 @@
+{
+
+  "totalOrders": 1,
+  "totalPages": 1,
+  "hasPrevPage": false,
+  "hasNextPage": true,
+  "currentPage": 1
+
+
+  "orders": [
+    {
+      "orderNumber": "100001",
+      "customer": "625f5e8c3b8f4b1d2a6f5e8c",
+      "company": "625f5e8c3b8f4b1d2a6f5e9d",
+      "items": [
+        {
+          "product": "625f5e8c3b8f4b1d2a6f5ea1",
+          "variantSKU": "VAR123",
+          "quantity": 2
+        },
+        {
+          "product": "625f5e8c3b8f4b1d2a6f5ea2",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 150.00,
+      "vendorBill": 120.00,
+      "paymentStatus": "Pending",
+      "shippingDetails": {
+        "firstName": "John",
+        "lastName": "Doe",
+        "email": "john.doe@example.com",
+        "phone": "+1234567890",
+        "address": "123 Elm Street",
+        "city": "Metropolis",
+        "state": "NY",
+        "country": "USA",
+        "zipCode": "10001",
+        "instruction": "Leave at the front door",
+        "shippingType": "Express",
+        "shippingCost": 10.00,
+        "estimatedDelivery": "2023-10-15T14:00:00Z"
+      },
+      "status": "Pending",
+      "statusHistory": [
+        { "status": "Pending", "date": "2023-10-10T10:00:00Z" }
+      ],
+      "isConfirmed": false,
+      "confirm_token": {
+        "token": "a1b2c3d4e5f6",
+        "link": "https://example.com/confirm?token=a1b2c3d4e5f6",
+        "expires": "2023-10-12T10:00:00Z"
+      },
+      "orderedAt": "2023-10-10T10:00:00Z"
+    },
+    {
+      "orderNumber": "100002",
+      "customer": "625f5e8c3b8f4b1d2a6f5e9c",
+      "company": "625f5e8c3b8f4b1d2a6f5e8d",
+      "items": [
+        {
+          "product": "625f5e8c3b8f4b1d2a6f5eb1",
+          "quantity": 3
+        }
+      ],
+      "totalAmount": 75.00,
+      "vendorBill": 60.00,
+      "paymentStatus": "Paid",
+      "shippingDetails": {
+        "firstName": "Alice",
+        "lastName": "Smith",
+        "email": "alice.smith@example.com",
+        "phone": "+1234567890",
+        "address": "456 Oak Avenue",
+        "city": "Gotham",
+        "state": "CA",
+        "country": "USA",
+        "zipCode": "90210",
+        "instruction": "Ring the doorbell twice",
+        "shippingType": "Standard",
+        "shippingCost": 5.00,
+        "estimatedDelivery": "2023-10-18T14:00:00Z"
+      },
+      "status": "Processing",
+      "statusHistory": [
+        { "status": "Pending", "date": "2023-10-11T10:00:00Z" },
+        { "status": "Processing", "date": "2023-10-12T11:00:00Z" }
+      ],
+      "isConfirmed": true,
+      "confirm_token": null,
+      "orderedAt": "2023-10-11T10:00:00Z"
+    }
+  ]
+}
